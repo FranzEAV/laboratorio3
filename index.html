@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant</title>
+    <!-- la estiqueta "link" es para mostrar un icono al costado del titulo -->
+    <link href="./src/head/icono.png">
+    <!-- la etiqueta "style" es para poder usar estilos en un lugar seleccionado con "class" -->
+    <style>
+        .titulo{
+            color: aqua;
+        }
+
+        .parrafo1{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+
+        .parrafo2{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+
+        .parrafo3{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+
+        .parrafo4{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+        }
+
+        .wsp{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- "class" es para poder darle un poco de estilo en la etiqueta "style" que esta dentro de "head" -->
+        <h1 class="titulo">Elegant</h1>
+        <div>
+            <table>
+                <th>
+                    <div>
+                        <img src="./src/body/buscar.png" width="40px" height="40px">
+                        <br>
+                        <button>buscar</button>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <img src="./src/body/delivery.png" width="40px" height="40px">
+                        <br>
+                        <button>mis pedidos</button>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <img src="./src/body/cuenta.png" width="40px" height="40px">
+                        <br>
+                        <button>mi cuenta</button>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <img src="./src/body/carrito.png" width="40px" height="40px">
+                        <br>
+                        <button>carrito</button>
+                    </div>
+                </th>
+            </table>
+        </div>
+        <!-- La etiqueta "form" se agregan los diferentes campos de entrada de datos o de confirmación, así como los botones,etc -->
+        <form>
+            <!-- La etiqueta "label" se consegue una mayor claridad y accesibilidad web. Se utiliza en los formularios y añade una leyenda o etiqueta explicativa a elementos como, por ejemplo, campos de entrada, botones o casillas de verificación. -->
+            <label>Seleccione su estilo</label>
+            <select>
+                <!-- La etiqueta "option" se usa para representar un item dentro de un <select> , un <optgroup> (en-US) o un elemento HTML5 <datalist> . Texto con eventualmente caracteres especiales -->
+                <option value="hombre">hombre</option>
+                <option value="mujer">mujer</option>
+                <option value="niño">niño</option>
+                <option value="niña">niña</option>
+            </select>
+            <input type="submit" value="Aceptar" />
+        </form>
+        <hr>
+    </div>
+    <!-- La etiqueta "b" pone en negrita un texto en especifico -->
+    <div>
+        <p>APROVECHA LOS <b>PRECIOS ESPECIALES</b> QUE TENEMOS PARA TI</p>
+    </div>
+    <div>
+        <!-- "class" es para poder darle un poco de estilo en la etiqueta "style" que esta dentro de "head" -->
+        <p class="parrafo1">HOMBRE</p>
+        <table border="6">
+            <th>
+                <div>
+                    <img src="./src/body/camisa.jpg" width="400px" height="400px">
+                    <br>
+                    <p>camisas</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/jeansm.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>jeans</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/zapatilasm.jpeg" width="350px" height="400px">
+                    <br>
+                    <p>zapatilas</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/reloj.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>relojes</p>
+                </div>
+            </th>
+        </table>
+        <p class="parrafo2">MUJER</p>
+        <table border="6">
+            <th>
+                <div>
+                    <img src="./src/body/blusa.jpg" width="400px" height="400px">
+                    <br>
+                    <p>blusas</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/jeansf.jpeg" width="300px" height="400px">
+                    <br>
+                    <p>jeans</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/zapatillasf.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>zapatilas</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/pulseras.jpg" width="400px" height="400px">
+                    <br>
+                    <p>pulseras</p>
+                </div>
+            </th>
+        </table>
+        <p class="parrafo3">NIÑOS</p>
+        <table border="6">
+            <th>
+                <div>
+                    <img src="./src/body/polosniño.jpg" width="400px" height="400px">
+                    <br>
+                    <p>polos</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/jeansniño.jpg" width="330px" height="400px">
+                    <br>
+                    <p>jeans</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/zapatillasniño.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>zapatilas</p>
+                </div>
+            </th>
+        </table>
+        <p class="parrafo4">NIÑAS</p>
+        <table border="6">
+            <th>
+                <div>
+                    <img src="./src/body/polosniña.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>blusas</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/jeansniña.jpeg" width="330px" height="400px">
+                    <br>
+                    <p>jeans</p>
+                </div>
+            </th>
+            <th>
+                <div>
+                    <img src="./src/body/zapatillasniña.jpeg" width="400px" height="400px">
+                    <br>
+                    <p>zapatilas</p>
+                </div>
+            </th>
+        </table>
+    </div>
+    <div class="wsp">
+        <img src="./src/body/wsp.png" width="150px" height="130px">
+    </div>
+</body>
+</html>
